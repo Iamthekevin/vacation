@@ -122,7 +122,7 @@ html{
     border: none;
 }
 .banner{
-    background-image: url("/images/xbg_1.jpg.pagespeed.ic.ZaS6JLR_0b.webp");
+    background-image: url("images/xbg_1.jpg.pagespeed.ic.ZaS6JLR_0b.webp");
     height: 550px;
     width: 100%;
     background-size: cover;
