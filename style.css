@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=DM+Serif+Display:ital@1&family=Outfit:wght@400&family=Poppins&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+/* scrollbar design */
+::-webkit-scrollbar{
+    background-color: #fff;
+    width: 0.7rem;
+}
+::-webkit-scrollbar-thumb{
+    background-color:var(--pink-color);
+    border-radius: 5px;
+
+}
+:root{
+    --pink-color:#E60965;
+    --darkpink-color:#FF869E;
+    --darkblack-color:#2C3333;
+    --primary-font: 'Outfit', sans-serif;
+    --secondory-font:'DM Serif Display', serif;
+    --third-font:'Poppins', sans-serif;
+}
+.mycustomnav{
+    background-color: var(--pink-color);
+}
+.mycustomnav .list ul{
+    display: flex;
+  
+    
+}
+.list ul li{
+    list-style: none;
+    font-size: 1.4rem;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    color: #fff;
+    padding-top: 1rem;
+    
+}
+.mycustomnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.fa-twitter,.fa-instagram,.fa-facebook,.fa-basketball{
+    font-size: 1.5rem;
+    padding-right: 1rem;
+    color: #fff;
+}
+.rental{
+    
+    color: var(--darkpink-color);
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.vacation{
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding-left: 2rem;
+}
+.navbar{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.navbar .nav-item .nav-link{
+    color: rgb(32, 25, 25)!important;
+    font-size: 1.6rem;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-right: 3rem;
+}
+
+.navbar-toggler{
+    box-shadow: none!important;
+    outline: none!important;
+    border: none!important;
+}
+ 
+.fa-bars{
+    font-size: 3rem;
+}
+/* banner css */
+.myfs{
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow:2px 2px grey;
+}
+.biglinefs{
+    font-size: 5.5rem;
+    text-align: justify!important;
+    font-family:var(--secondory-font);
+    font-weight: bolder;
+    color: #fff;
+    text-shadow:2px 2px grey;
+    /* letter-spacing: 5px; */
+}
+.btn {
+    background-color: var(--darkpink-color);
+    outline: none;
+    color: #fff;
+    font-size: 1.7rem;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    letter-spacing: 3px;
+
+}
+.btn:hover{
+    border-color: var(--pink-color);
+    color: #fff;
+    background-color: transparent;
+    color: black;
+}
+.btn:focus{
+    outline: none;
+    border: none;
+}
+.banner{
+    background-image: url("/images/xbg_1.jpg.pagespeed.ic.ZaS6JLR_0b.webp");
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+ 
+    
+}
+
+.my-form{
+    width:100%;
+    background-color:#fff;
+    border-radius: 1rem;
+    height:360px;
+    margin-top: 5rem;
+    padding-top: 3rem;
+ 
+}
+.book{
+    font-size: 2.5rem;
+    font-family: var(--third-font);
+    font-weight: 600;
+    text-align: center;
+
+}
+.bookbutton{
+    font-size: 2.3rem;
+}
+::placeholder{
+    color:black!important;
+}
+
+
+.allfont{
+    margin-top: 4rem!important;
+}
+.movebox{
+    margin-left: 10rem!important;
+}
+
+/* card */
+.map-direction{
+    font-size: 1.7rem;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.eventall{
+    font-size: 1.6rem;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    text-align: justify;
+    color: grey;
+    text-transform: capitalize;
+}
+.readmore{
+    font-size: 2rem;
+}
+.cards{
+    margin-top: -4rem!important;
+}
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+/* apartment room section */
+.apartment-room{
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: var(--third-font);
+    text-align: center;
+
+}
+.allcontainer{
+    background-color: rgb(231, 231, 231);
+}
+.margin-apartment{
+    padding-top: 10rem!important;
+}
+.starts{
+    background-color: white;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fa-star{
+    font-size: 1.5rem;
+    color: var(--pink-color);
+}
+.suit{
+    margin-top: 0.4rem;
+    font-size: 3rem;
+    font-family:var(--secondory-font);
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.person{
+    font-size: 1.6rem;
+    font-family: var(--third-font);
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+
+.starts:hover{
+    background-color: var(--darkpink-color);
+    color: white;
+}
+
+.btn2{
+    background-color:#fff; /* Green */
+    border: 2px solid lightgray;
+    color: #000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.8rem;
+    font-family: var(--secondory-font);
+}
+
+.carousel-new{
+    background-color:  rgb(253, 253, 253)
+}
+
+
+.happy-clients{
+     padding-top: 8rem;
+     font-weight: 600;
+     font-family: var(--third-font);
+    font-size: 4rem;
+}
+.item{
+    height: 23rem;
+    padding-top: 4rem;
+
+}
+
+
+.fa-quote-right{
+    color: var(--pink-color);
+    font-size: 4rem;
+    margin-top: -4rem;
+}
+
+.comment{
+    font-size: 1.3rem;
+    color: rgb(99, 98, 98);
+    font-family: var(--third-font);
+    line-height:1.6;
+    font-weight: 600;
+    text-align: justify;
+}
+.elon-musk{
+    font-family: var(--third-font);
+    font-weight: bolder;
+}
+/* what we offer */
+.whatoffer{
+    font-size: 4rem;
+    font-family: var(--secondory-font);
+    letter-spacing: 3px;
+}
+.offertxt{
+    color: grey;
+    font-size: 1.8rem;
+   text-align: justify;
+    font-family: var(--third-font);
+    font-weight: 500;
+}
+.offertxtone{
+    color: grey;
+    font-size: 1.4rem;
+   text-align: justify;
+    font-family: var(--third-font);
+    font-weight: 500;
+}
+.whatofferone{
+    font-size: 2.5rem;
+    font-family: var(--secondory-font);
+    letter-spacing: 3px;
+
+}
+.logosmall{
+    background-color: var(--darkpink-color);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tea{
+    font-size: 2rem;
+}
+.river{
+    font-size: 1.3rem;
+    color: grey;
+    font-family: var(--third-font);
+    font-weight: 700;
+    text-align: justify;
+}
+/* next between banner */
+.heading-ready{
+    font-size: 6rem;
+    font-family: var(--secondory-font);
+    color: #fff;
+}
+.para-ready{
+
+    font-size: 3rem;
+    font-family: var(--secondory-font);
+    color: #fff;
+    text-align: justify;
+}
+.allcontent{
+
+ background-image: url("images/xabout.jpg.pagespeed.ic.EY72SoTunm.webp");
+ background-repeat: no-repeat;
+ background-size: cover;
+background-attachment: fixed;
+height: 400px;
+
+}
+.two{
+    background: rgba(255,134,158,0.5);
+    background-size: cover;
+     height: 400px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+    
+}
+
+/* final not move cards */
+
+.work-hard{
+    background-color: rgb(253, 253, 253);
+}
+.latest-news{
+    font-family: var(--third-font);
+    font-size: 5rem;
+    font-weight: 600;
+}
+.blog-news{
+color: var(--darkpink-color);
+text-transform: capitalize;
+font-size: 1.6rem;
+
+}
+.workhardy{
+    font-size: 2.3rem;
+    font-family: var(--primary-font);
+    text-align: justify;
+   font-weight: 600;
+}
+.workhardy:hover{
+    color:var(--darkpink-color);
+    transition:all 0.3s;
+}
+.party{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-comment{
+    color: var(--darkpink-color);
+    font-size: 1.5rem;
+}
+.fa-comment:hover{
+    color: black;
+    
+}
+.comment-pink{
+    color: var(--darkpink-color);
+}
+
+.comment-pink:hover{
+    color: black;
+}
+.workhardy2{
+    color: grey;
+    font-family: var(--third-font);
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: justify;
+}
+/* footer section */
+.footer{
+    background-color: var(--darkblack-color);
+    
+    width: 100%;
+}
+.rental{
+    font-family: var(--primary-font);
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.river{
+    font-family:var(--third-font);
+    color: grey;
+    text-transform: capitalize;
+    margin-top: 1.8rem;
+    text-align: justify;
+}
+.link-read{
+    text-decoration: none;
+    color: var(--darkpink-color);
+    font-size: 1.8rem;
+    font-family: var(--primary-font);
+}
+
+.rentaltwo{
+    font-family: var(--primary-font);
+    color: #fff;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-top: 2.5rem;
+   margin-left: 2rem;
+}
+.list-ul{
+    list-style: none;
+    margin-top: 1.1rem;
+   
+}
+.list-ul li{
+  font-weight: 500;
+    color: rgb(202, 194, 194);
+    font-size: 1.5rem;
+    font-family: var(--primary-font);
+    margin-top: 0.5rem;
+
+}
+.rentalthree{
+    font-family: var(--primary-font);
+    color: #fff;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-top: 3rem;
+   margin-left: 2rem;
+   
+}
+.cloud-apartment{
+        /* text-transform: uppercase; */
+        display: inline-block;
+        padding: 4px 10px;
+        margin-bottom: 7px;
+        margin-right: 4px;
+        border-radius: 4px;
+        color: white;
+        border: 1px solid #ccc;
+        text-decoration: none;
+        font-size: 12px;
+        font-family: var(--primary-font);
+        
+    
+}
+.cloud-apartment:hover{
+    border-color: black;
+    color: white;
+}
+.email{
+    width: 75%!important;
+    height: 3rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    background-color: var(--darkblack-color);
+    
+    
+}
+.rentalfour{
+    font-family: var(--primary-font);
+    color: #fff;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-top: 3.5rem;
+   margin-left: 2rem;
+}
+.email::placeholder{
+    color: rgb(168, 168, 168)!important;
+    font-family: var(--primary-font);
+}
+label{
+    position: relative;
+}
+input[type="email"]{
+
+border: 1px solid rgb(46, 43, 43);
+padding: 10px;
+height:5rem;
+
+border-radius:4px;
+color: white;
+text-transform: capitalize;
+
+}
+.send{
+    border:none;
+    padding:10px;
+    position: absolute;
+    top: 0;
+    right:20px;
+    bottom:0;
+    border-top-right-radius:4px ;
+    border-bottom-right-radius: 4px;
+    background-color:var(--darkpink-color);
+}
+.fa-paper-plane{
+    font-size: 2.5rem;
+    color: #fff;
+}
+.rentalfive{
+    font-family: var(--primary-font);
+    color: #fff;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-top: 2rem;
+   margin-left: 2rem;
+}
+.fa-facebook{
+    font-size: 3rem;
+    color: #Fff;
+    /* margin-right: 2rem; */
+}
+.fa-linkedin{
+    font-size: 3rem;
+    color: #Fff;
+    margin-right:1rem;
+}
+.fa-telegram{
+
+    font-size: 3rem;
+    color: #Fff;
+    margin-right: 1rem;
+
+
+}

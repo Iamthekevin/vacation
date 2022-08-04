@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--font awesome  -->
+    <script src="https://kit.fontawesome.com/724b5b7deb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <navbar class="mycustomnav">
+        <div class="list">
+            <ul>
+                <li>Phone no: +00 1234 567 or &nbsp;</li>
+                <li>email us: emailsample@email.com</li>
+            </ul>
+        </div>
+        <div class="socialmedia-icons">
+            <a href="#" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-instagram"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-twitter"></i></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"> <i class="fa-solid fa-basketball"></i></a>
+
+        </div>
+
+    </navbar>
+    <!-- menu navbar -->
+    <nav class="navbar navbar-expand-lg  bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><span class="vacation">Vacation</span><span
+                    class="rental">Rental</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                <i class="fa-solid fa-bars navbar-toggler"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Apartment Room</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="banner ">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-7 " style="margin-top:15rem;">
+                    <div class="allfont">
+                        <h3 class="myfs">Welcome to Vacation Rental</h3>
+                        <h2 class="biglinefs">Rent an all appartment for your vacation</h2>
+                        <div class="btnall">
+                            <button class="btn ">Learn More</button>
+                            <button class="btn">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="box movebox">
+
+                        <form action="" class="my-form">
+                            <div class="container">
+                                <h2 class="book">Book Your Apartment</h2>
+                                <div class="form-group">
+
+                                    <input type="text" name="" id="" class="form-control  changewidth changefont"
+                                        placeholder="Full Name"
+                                        style="background: #F6F6F6; font-size:1.8rem; text-transform: capitalize;">
+                                </div>
+                                <div class="input-group mt-2">
+
+                                    <input type="text" name="" id="" class="form-control changewidth changefont"
+                                        placeholder="check-In"
+                                        style="background: #F6F6F6; font-size: 1.8rem; text-transform: capitalize;">
+                                    &nbsp;&nbsp;&nbsp; <input type="text" name="" id=""
+                                        class="form-control changewidth changefont" placeholder="Check-Out"
+                                        style="background: #F6F6F6; font-size: 1.8rem; text-transform: capitalize;">
+                                </div>
+
+
+                                <div class="input-group mt-3">
+                                    <select class="form-select changewidth changefont"
+                                        aria-label="Default select example"
+                                        style="font-size: 1.8rem;background-color:#F6F6F6; text-transform: capitalize; ">
+                                        <option selected>Adults</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select> &nbsp; &nbsp;
+                                    <select class="form-select changewidth changefont"
+                                        aria-label="Default select example"
+                                        style="background-color: #F6F6F6; font-size: 1.8rem; text-transform: capitalize;">
+                                        <option selected>Children</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+
+                                </div>
+                                <div class="input-group mt-3">
+                                    <input type="Phone" name="" id="" class="form-control  changewidth changefont"
+                                        placeholder="Phone"
+                                        style="background: #F6F6F6; font-size: 1.8rem; text-transform: capitalize;">
+                                    &nbsp;&nbsp;&nbsp;
+                                    <input type="text" name="" id="" class="form-control changewidth changefont"
+                                        placeholder="time"
+                                        style="background: #F6F6F6; font-size: 1.8rem; text-transform: capitalize;">
+
+
+                                </div>
+                                <button class="btn mt-3 bookbutton changewidth" style="width:100%">Book Apartment
+                                    Now</button>
+
+                            </div>
+                        </form>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="cards">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="container">
+                            <img src="images/xservices-1.jpg.pagespeed.ic.mOOxqpkd0U.webp" class="card-img-top mt-3"
+                                alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title map-direction text-center">Map Direction</h5>
+                            <p class="card-text eventall">Even the all-powerful Pointing has no control about the
+                                blind
+                                texts it is an almost unorthographic.</p>
+                            <div class="text-center">
+
+                                <a href="#" class="btn readmore">Read More</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="container">
+                            <img src="images/xservices-2.jpg.pagespeed.ic.PPzb06QGPW.webp" class="card-img-top mt-3"
+                                alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title map-direction text-center">Accomodation Services</h5>
+                            <p class="card-text eventall">Even the all-powerful Pointing has no control about the
+                                blind texts it is an almost unorthographic.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn readmore">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="container">
+                            <img src="images/xservices-3.jpg.pagespeed.ic.PRykvuR9Yk.webp" class="card-img-top mt-3"
+                                alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title map-direction text-center">Great Experience</h5>
+                            <p class="card-text eventall">ven the all-powerful Pointing has no control about the
+                                blind texts it is an almost unorthographic..</p>
+                            <div class="text-center">
+
+                                <a href="#" class="btn readmore">Read More</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+    <section class="apartment">
+
+        <div class="container-fluid allcontainer">
+            <h1 class="apartment-room margin-apartment">Apartment Room</h1>
+            <div class="text-center">
+                <div class="row g-0 mt-5">
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="images/xroom-1.jpg.pagespeed.ic.0q4Bp6Qeo7.webp " alt=""
+                            class="img-fluid img-my w-100" style="height: 300px;">
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="starts">
+                            <div class="main-starts">
+                                <i class="fa-solid fa-star"></i>&nbsp; &nbsp;<i class="fa-solid fa-star"></i>&nbsp;
+                                &nbsp;<i class="fa-solid fa-star"></i>&nbsp; &nbsp;<i
+                                    class="fa-solid fa-star"></i>&nbsp;
+                                &nbsp;<i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="txtsuit">
+                                <h2 class="suit">Suite Room</h2>
+                            </div>
+                            <div class="max-person text-center">
+                                <h2 class="person">Max: 3 Persons</h2>
+                                <h2 class="person">Size: 45 m2</h2>
+                                <h2 class="person"> View: Sea View</h2>
+                                <h2 class="person"> Bed: 1</h2>
+                                <button class="btn2">View Room Details</button>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <img src="images/xroom-2.jpg.pagespeed.ic.qQEQzEZcIj.webp " alt=""
+                            class="img-fluid img-my w-100" style="height: 300px;">
+                    </div>
+                    <div class="col-lg-3  col-md-6">
+                        <div class="starts">
+                            <div class="main-starts">
+                                <i class="fa-solid fa-star"></i>&nbsp; &nbsp;<i class="fa-solid fa-star"></i>&nbsp;
+                                &nbsp;<i class="fa-solid fa-star"></i>&nbsp; &nbsp;<i
+                                    class="fa-solid fa-star"></i>&nbsp;
+                                &nbsp;<i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="txtsuit">
+                                <h2 class="suit">Standard Room</h2>
+                            </div>
+                            <div class="max-person text-center">
+                                <h2 class="person">Max: 3 Persons</h2>
+                                <h2 class="person">Size: 45 m2</h2>
+                                <h2 class="person"> View: Sea View</h2>
+                                <h2 class="person"> Bed: 1</h2>
+                                <button class="btn2">View Room Details</button>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- another cards below -->
+        <div class="container-fluid allcontainer">
+
+            <div class="text-center">
+                <div class="row g-0">
+
+                    <div class="col-lg-3 col-md-6">
+                        <img src="images/xroom-3.jpg.pagespeed.ic.-BqmSKjZKz.webp " alt=""
+                            class="img-fluid img-my w-100" style="height: 300px;">
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="starts">
+                            <div class="main-starts">
+                                <i class="fa-solid fa-star"></i>&nbsp; &nbsp;<i class="fa-solid fa-star"></i>&nbsp;
+                                &nbsp;<i class="fa-solid fa-star"></i>&nbsp; &nbsp;<i
+                                    class="fa-solid fa-star"></i>&nbsp;
+                                &nbsp;<i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="txtsuit">
+                                <h2 class="suit">Faminly Room</h2>
+                            </div>
+                            <div class="max-person text-center">
+                                <h2 class="person">Max: 3 Persons</h2>
+                                <h2 class="person">Size: 45 m2</h2>
+                                <h2 class="person"> View: Sea View</h2>
+                                <h2 class="person"> Bed: 1</h2>
+                                <button class="btn2">View Room Details</button>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <img src="images/xroom-4.jpg.pagespeed.ic.5v9gH2L7pP.webp " alt=""
+                            class="img-fluid img-my w-100" style="height: 300px;">
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="starts">
+                            <div class="main-starts">
+                                <i class="fa-solid fa-star"></i>&nbsp; &nbsp;<i class="fa-solid fa-star"></i>&nbsp;
+                                &nbsp;<i class="fa-solid fa-star"></i>&nbsp; &nbsp;<i
+                                    class="fa-solid fa-star"></i>&nbsp;
+                                &nbsp;<i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="txtsuit">
+                                <h2 class="suit">Deluxe Room</h2>
+                            </div>
+                            <div class="max-person text-center">
+                                <h2 class="person">Max: 3 Persons</h2>
+                                <h2 class="person">Size: 45 m2</h2>
+                                <h2 class="person"> View: Sea View</h2>
+                                <h2 class="person"> Bed: 1</h2>
+                                <button class="btn2">View Room Details</button>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="carousel-new">
+            <div class="container">
+               
+                <div class="white">
+                    <h2 class="happy-clients text-center ">Happy Clients & Feedbacks</h2>
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="one shadow-lg p-3 mb-5 bg-body rounded">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div class="text-center"><img
+                                                src="images/xperson_1.jpg.pagespeed.ic.a2MnMHMs44.webp" alt=""
+                                                class="rounded-circle  img-fluid" style="height: 80px;"> </div>
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="q"><i class="fa-solid fa-quote-right"></i></div>
+
+                                        <h3 class="comment">“I think it’s very important to have a feedback loop, where
+                                            you’re constantly thinking about what you’ve done and how you could be doing
+                                            it
+                                            better.” </h3>
+                                        <h3 class="elon-musk">Elon Musk</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="one shadow-lg p-3 mb-5 bg-body rounded">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div class="text-center"><img
+                                                src="images/xperson_2.jpg.pagespeed.ic.Xrdu_nPZRp.webp" alt=""
+                                                class="rounded-circle  img-fluid" style="height: 80px;"> </div>
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="q"><i class="fa-solid fa-quote-right"></i></div>
+
+                                        <h3 class="comment">“I think it’s very important to have a feedback loop, where
+                                            you’re constantly thinking about what you’ve done and how you could be doing
+                                            it
+                                            better.” </h3>
+                                        <h3 class="elon-musk">Elon Musk</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="one shadow-lg p-3 mb-5 bg-body rounded">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div class="text-center"><img
+                                                src="images/xperson_3.jpg.pagespeed.ic.Cln-jaM1jK.webp" alt=""
+                                                class="rounded-circle  img-fluid" style="height: 80px;"> </div>
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="q"><i class="fa-solid fa-quote-right"></i></div>
+
+                                        <h3 class="comment">“I think it’s very important to have a feedback loop, where
+                                            you’re constantly thinking about what you’ve done and how you could be doing
+                                            it
+                                            better.” </h3>
+                                        <h3 class="elon-musk">Elon Musk</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="one shadow-lg p-3 mb-5 bg-body rounded">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div class="text-center"><img
+                                                src="images/xperson_4.jpg.pagespeed.ic.ucbtJ1Htlo.webp" alt=""
+                                                class="rounded-circle  img-fluid" style="height: 80px;"> </div>
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="q"><i class="fa-solid fa-quote-right"></i></div>
+
+                                        <h3 class="comment">“I think it’s very important to have a feedback loop, where
+                                            you’re constantly thinking about what you’ve done and how you could be doing
+                                            it
+                                            better.” </h3>
+                                        <h3 class="elon-musk">Elon Musk</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+        </section>
+
+
+<section class="whatweoffer">
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+         <img src="" alt="">
+
+        </div>
+    </div>
+</div>
+
+
+</section>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            autoplay: 1000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+
+
+
+</body>
+
+</html>

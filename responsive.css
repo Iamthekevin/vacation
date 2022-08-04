@@ -1,0 +1,187 @@
+@media screen and (min-width:375px) and (max-width:576px){
+    .logosmall{
+        /* background-color: var(--darkpink-color); */
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+
+}
+.rentaltwo{
+    margin-left: 0;
+}
+.list-ul{
+    padding-left: 0;
+}
+.rentalthree{
+    margin-left: 0;
+}
+input[type="email"]{
+    width: 365px!important;
+}
+.rentalfour{
+    margin-left: 0;
+}
+.logosmall{
+    margin-left: 30px;
+}
+}
+
+@media screen and (min-width:375px) and (max-width:767px) {
+    .mycustomnav{
+        flex-direction: column;
+    }
+    .list ul li{
+        font-size: 1.2rem;
+        font-weight: bolder!important;
+    }
+/* bootstrap nav */
+.navbar .nav-item {
+    font-size: 1.7rem;
+    color: black!important;
+
+
+}
+.myfs{
+    font-size: 1.5rem;
+}
+.biglinefs{
+    font-size: 3rem;
+    text-align: justify!important;
+}
+.btn{
+    margin-top: 1rem;
+}
+.box{
+    position: relative;
+    top: 22rem;
+}
+.movebox{
+    margin-left: 0!important;
+}
+}
+@media screen and (min-width:320px) and (max-width:374px) {
+    .mycustomnav{
+        flex-direction: column;
+    }
+    .list ul li{
+        font-size: 1rem;
+    }
+    /* bootstrap nav */
+.navbar .nav-item {
+    font-size: 1.7rem;
+    color: black!important;
+
+
+}
+.myfs{
+    font-size: 1.5rem;
+}
+.biglinefs{
+    font-size: 3.5rem;
+    text-align: justify!important;
+}
+.btn{
+    margin-top: 1rem;
+}
+.logosmall{
+    margin-left: 14px;
+}
+
+}
+@media screen and (min-width:320px) and (max-width:767px){
+    .box{
+        position: relative;
+        top: 23rem;
+    }
+    .movebox{
+        margin-left: 0!important;
+    }
+    .my-form{
+        margin-top: 0;
+    }
+.bookbutton{
+    font-size: 2rem;
+}
+.changewidth{
+    width: 100% !important;;
+}
+.changefont{
+    font-size:1.6rem!important;
+}
+.cards{
+    position: relative;
+    top: 52rem;
+}
+.apartment{
+    position: relative;
+    top: 54rem;
+}
+.happy-clients{
+    font-size: 2.5rem;
+}
+
+
+.whatoffer{font-size: 3rem;
+}
+.heading-ready{
+    font-size: 2rem;
+}
+.heading-ready{
+    font-size: 4rem;
+}
+.para-ready{
+    font-size: 1.5rem;
+}
+.allcontent{
+    height: 600px;
+    background-position: center;
+}
+.two{
+    height: 600px;
+}
+.latest-news{
+    font-size: 2.6rem;
+}
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    .box{
+        position: relative;
+        top: 15rem;
+    }
+    .movebox{
+        margin-left: 0rem!important;
+    }
+.cards{
+    position: relative;
+    top: 40rem;
+}
+
+.apartment{
+    position: relative;
+    top: 50rem;
+}
+.offertxtone{
+    color: grey;
+    font-size: 2rem;
+   
+    font-family: var(--third-font);
+    font-weight: 500;
+    text-align: justify;
+}
+.whatofferone{
+    font-size: 2.5rem;
+    font-family: var(--secondory-font);
+    letter-spacing: 3px;
+    
+
+}
+.workhardy{
+    font-size: 1.9rem!important;
+}
+.workhardy2{
+    font-size: 1.5rem!important;
+}
+.send{
+    right: -10px;
+}
+}
