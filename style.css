@@ -53,6 +53,12 @@ html{
     padding-right: 1rem;
     color: #fff;
 }
+.fa-facebook{
+ font-size: 1.5rem;
+    padding-right: 1rem;
+    color: #fff;
+
+}
 .rental{
     
     color: var(--darkpink-color);
